@@ -1,0 +1,13 @@
+===============================================================
+=                    Introduction                             =
+===============================================================
+This project is to implement BFS algorithm to address problem.
+
+Suppose you are given an 8-pint jug full of water and two empty jugs of 3- and 5-pint capacity; you must get exactly 4 pints of water in one of the jugs by completely filling/emptying jugs into each other. This problem can be modeled by an implicit graph: The vertices are triples (i, j, k) where i is the amount of water the 3-pint jug, j is the amount of water in the 5-pint jug, and k is the amount of water in the 8-pint jug. The (directed) edges connect a triple T to triples that can be obtained from T by pouring. Thus, for example, there is an edge from (3, 3, 2) to (1, 5, 2) because we can pour from the 3-pint to fill the 5-pint jug, leaving 1 pint in the 3-pint jug. You are given jugs of capacities c1, c2, and c3 and have to get a target amount t. Design an algorithm based on breadth-first search to determine how to get t, or to verify its impossibility. Remember, the graph is implicit—you do not have an explicit form of it (in a an adjacency structure, say).
+
+Implement, in any language and on any platform you choose, your algorithm in problem (1). The user must be able to enter any three positive integers c1, c2, c3, and a target t. The graph might too big to be kept explicitly. It may be that that target value is impossible to reach and the program must so report. An ideal implementation would allow for more than three jugs—say, c1, c2, c3, c4, and c5. Your algorithm must give the sequence of pourings to reach the target, when possible, and must indicate when the target cannot be achieved.
+
+===============================================================
+=               Installation Instruction                      =
+===============================================================
+
